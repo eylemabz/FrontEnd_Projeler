@@ -5,3 +5,16 @@
   overflow:hidden;
   height:80px;
 }
+#yazi .items{
+  flex-direction: column;
+}
+#yazi .items .item{
+  width:100%;
+}
+#yazi .items .item:hover{
+  color:red;
+  opacity:0.6;
+}
+.courses .course {
+  flex-direction: column;
+}
